@@ -20,7 +20,7 @@ public class HomePage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
-        notify = findViewById(R.id.notify);
+//        notify = findViewById(R.id.notify);
         button4 = findViewById(R.id.button4);
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
